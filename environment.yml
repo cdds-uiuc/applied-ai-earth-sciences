@@ -1,0 +1,31 @@
+# GEOL/ATMS 522 — the single course environment (students and instructor).
+# Create:  conda env create -f environment.yml
+# Use:     conda activate geol522 ; jupyter lab
+# Pins are minor versions so that Weeks 1–15 run the same code all semester;
+# a lock file is captured per release (see tools/README.md).
+name: geol522
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.2.*
+  - pandas=2.2.*
+  - scipy=1.15.*
+  - scikit-learn=1.6.*
+  - xarray=2025.6.*
+  - netcdf4=1.7.*
+  - matplotlib=3.10.*
+  - cartopy=0.24.*
+  - seaborn=0.13.*
+  - pytorch=2.7.*          # CPU build on laptops; Colab provides its own CUDA build
+  - torchvision=0.22.*
+  - jupyterlab=4.4.*
+  - ipykernel
+  - ipywidgets             # only so that JupyterLab does not warn; course code uses no widgets
+  - nbformat
+  - nbclient
+  - nbconvert
+  - requests
+  - pip
+  - pip:
+      - text2qti==0.8.0    # quiz banks -> Canvas QTI (instructor use)

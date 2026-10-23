@@ -1,0 +1,39 @@
+# Jupyter Book 2 / MyST configuration for the student-facing book.
+version: 1
+project:
+  title: Applied AI for Earth Sciences
+  description: GEOL/ATMS 522, University of Illinois Urbana-Champaign. Weekly concept notebooks, labs and homework.
+  authors:
+    - name: Cristian Proistosescu
+      affiliations:
+        - University of Illinois Urbana-Champaign
+  github: cdds-uiuc/applied-ai-earth-sciences
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  exclude:
+    - "**/data/**"
+    - "**/.ipynb_checkpoints/**"
+    - README.md
+    - LICENSE.md
+  toc:
+    - file: intro.md
+    - file: week01_ml_workflow/index.md
+      children:
+        - file: week01_ml_workflow/W01_core0_setup.md
+        - file: week01_ml_workflow/W01_core1_toolkit.ipynb
+        - file: week01_ml_workflow/W01_core2_ml_workflow.ipynb
+        - file: week01_ml_workflow/W01_labA_camels_regression.ipynb
+        - file: week01_ml_workflow/W01_hw_camels_regression.ipynb
+    - file: week02_regression_regularization/index.md
+      children:
+        - file: week02_regression_regularization/W02_core1_bias_variance.ipynb
+        - file: week02_regression_regularization/W02_core2_ridge_lasso.ipynb
+        - file: week02_regression_regularization/W02_labA_camels_lasso.ipynb
+        - file: week02_regression_regularization/W02_hw_camels_baseflow.ipynb
+    # Throwaway rendering test; remove with the file once the callout decision is made.
+    - file: zz_callout_test.ipynb
+site:
+  template: book-theme
+  options:
+    style: ./style.css

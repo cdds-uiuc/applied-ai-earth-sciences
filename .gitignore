@@ -1,0 +1,24 @@
+# Data downloaded at run time by the notebooks; never committed
+data/
+*.nc
+*.zarr/
+*.h5
+*.tif
+*.tiff
+*.npz
+
+# Jupyter Book / MyST build outputs
+_build/
+exports/
+node_modules/
+
+# Jupyter and Python noise
+.ipynb_checkpoints/
+.virtual_documents/
+__pycache__/
+
+
+# macOS, editors, Dropbox
+.DS_Store
+.vscode/
+*conflicted copy*

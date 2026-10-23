@@ -1,0 +1,23 @@
+# Licenses
+
+Two licenses apply to this repository.
+
+## Content: CC BY 4.0
+
+The text, figures, exercises, quizzes and other non-code content are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You may share and adapt the material for any purpose, including commercially, provided you give appropriate credit, link to the license and indicate if changes were made. Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested attribution: Proistosescu, C. (2027). *Applied AI for Earth Sciences* (GEOL/ATMS 522), University of Illinois Urbana-Champaign. https://github.com/cdds-uiuc/applied-ai-earth-sciences
+
+## Code: MIT
+
+The code, including the code cells of the notebooks and any scripts, is licensed under the MIT License:
+
+MIT License
+
+Copyright (c) 2026 Cristian Proistosescu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
