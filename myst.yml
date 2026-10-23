@@ -31,8 +31,6 @@ project:
         - file: week02_regression_regularization/W02_core2_ridge_lasso.ipynb
         - file: week02_regression_regularization/W02_labA_camels_lasso.ipynb
         - file: week02_regression_regularization/W02_hw_camels_baseflow.ipynb
-    # Throwaway rendering test; remove with the file once the callout decision is made.
-    - file: zz_callout_test.ipynb
 site:
   template: book-theme
   options:

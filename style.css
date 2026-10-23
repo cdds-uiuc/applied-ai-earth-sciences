@@ -9,6 +9,8 @@ blockquote {
   font-style: normal;
 }
 blockquote > p { margin: 0.25rem 0; }
+/* the theme italicizes quotes; a callout is not a quote */
+blockquote, blockquote p, blockquote em, blockquote strong, blockquote li { font-style: normal !important; }
 blockquote > p > strong:first-child { color: #0072B2; }
 html.dark blockquote, .dark blockquote { background: #1c2733; border-left-color: #56B4E9; }
 html.dark blockquote > p > strong:first-child, .dark blockquote > p > strong:first-child { color: #56B4E9; }
